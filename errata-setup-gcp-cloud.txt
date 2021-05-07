@@ -1,0 +1,32 @@
+Update section referencing Stackdriver at this point
+https://kb.kentik.com/v0/Bd07.htm#Bd07-Create_a_New_Topic
+
+Update section
+Hamburger
+Operations, Logging, Logs Router
+This view shows the Logs Router Sinks
+Select a routing sink
+On the right side of the selected sink is a vertical series of dots. Select the icon, then select the “Edit sink” option.
+In the sink destination change the “Cloud Logging Bucket” to “Cloud Pub/Sub topic”
+Provide a name for creation of topic, choose Create Topic button
+In the Sink Destination choose DONE
+Scroll to the bottom of the “Edit logs routing sink”, click the Update Sink button at the bottom
+
+Create a Pull Subscription
+Hamburger button, Console, BigData, Pub/Sub, Topics
+Select Topic created in previous section
+Click submenu icon at right of row
+Choose Create Subscription
+
+
+Section “Creating a Pull Subscription” needs update:
+https://kb.kentik.com/v0/Bd07.htm#Bd07-Create_a_New_Topic
+
+
+3. Choose Create Subscription from the topic submenu
+
+
+Section “Set Permissions” needs update:
+https://kb.kentik.com/v0/Bd07.htm#Bd07-Set_Permissions
+
+4.  Click save button
